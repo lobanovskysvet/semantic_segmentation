@@ -8,7 +8,7 @@ Semantic segmentation model with UNet architecture using Keras.
   * Run run_me.sh,that will install requirement libraries and virtual env
   * Ensure you are in env_name and run :   
     - Predict :
-      python application_entry_point.py  ***full_path_to_image*** ***destination_folder*** ***path_to_model***
+      python application_entry_point.py   ***full_path_to_image*** ***destination_folder*** ***path_to_model***
     - Train :
       python train.py ***path_to_train_image***
       
@@ -23,11 +23,12 @@ Semantic segmentation model with UNet architecture using Keras.
    * Train :
   ***path_to_train_image*** 
   
-   1. ***path_to_train_image***: name of the folder that would be used as a source folder with trainihg images(data structure is belove)
+   1. ***path_to_train_image***: name of the folder that would be used as a source folder with trainihg images(data structure is below)
      
   ## **Example** 
-  python application_entry_point.py  */segmentation/image.png*  */Tools/segmentation*  */segmentation/segmentation_model.h5*
-      
+  ```sh
+  python application_entry_point.py  /segmentation/image.png  /Tools/segmentation  /segmentation/segmentation_model.h5
+   ``` 
       
 # **Data structure**
     ├── stage1_test                   
