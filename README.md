@@ -31,7 +31,7 @@ Semantic segmentation model with UNet architecture using Keras.
    ``` 
       
 # **Data structure**
-    Dataset was given from https://www.kaggle.com/c/data-science-bowl-2018
+    Dataset was downloaded from https://www.kaggle.com/c/data-science-bowl-2018
     
     ├── stage1_test                   
     │   ├── {image_guid}
