@@ -6,7 +6,7 @@ Semantic segmentation model with UNet architecture using Keras.
   To run quickstart, you'll need:
   * Anaconda3 or greater (conda).
   * Run run_me.sh,that will install requirement libraries and virtual env
-  * Ensure you are in env_name and run :   
+  * Ensure you are in conda env 'lobanova_test' and run :   
     - Predict :
       python application_entry_point.py   ***full_path_to_image*** ***destination_folder*** ***path_to_model***
     - Train :
