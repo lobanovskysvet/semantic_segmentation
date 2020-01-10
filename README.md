@@ -23,7 +23,7 @@ Semantic segmentation model with UNet architecture using Keras.
    * Train :
   ***path_to_train_image*** 
   
-   1. ***path_to_train_image***: name of the folder that would be used as a source folder with trainihg images(data structure is below)
+   1. ***path_to_train_image***: name of the folder that would be used as a source folder with training images(data structure is below)
      
   ## **Example** 
   ```sh
